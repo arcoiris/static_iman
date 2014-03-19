@@ -16,15 +16,21 @@ html {
  */
 
 body {
-  background-color: #009999;
+  background-image: url(../assets/ink.jpg);
   font-family:'Josefin Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
   margin: 0;
 }
 
+/* Adding styling to under construction 
+sign */
+
+#notification {
+  text-shadow: 4px 4px 8px #000;
+}
 /* HTML5 display definitions
-   ========================================================================== */
+   ========================================================================== 
 
 /**
  * Correct `block` display not defined in IE 8/9.
