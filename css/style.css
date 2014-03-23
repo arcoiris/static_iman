@@ -58,6 +58,10 @@ a {
 	padding-bottom: 20px;
 }
 
+.box h5 {
+  margin: 10px;
+}
+
 .social_media {
 	display: table-cell; /* need to check what this does */
 	background: rgba(84, 84, 84, 0.7);  
