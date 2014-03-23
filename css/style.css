@@ -41,29 +41,28 @@ a {
 
 
 /* Box dividers */
-.box_wrapper {
+#box_wrapper {
 	width: 550px;
 	max-height: 500px;
 	text-align: center;
 	margin: 0 auto;
 }
 
-.box {
+#box {
   width: 500px;
   background-color: white;
   float: right;
 }
 
-.box address {
+#box address {
 	padding-bottom: 20px;
 }
 
-.box h5 {
+#box h5 {
   margin: 10px;
 }
 
-.social_media {
-	display: table-cell; /* need to check what this does */
+#social_media {
 	background: rgba(84, 84, 84, 0.7);  
 	width: 30px;
   padding: 10px;
