@@ -46,7 +46,6 @@ a {
 	max-height: 500px;
 	text-align: center;
 	margin: 0 auto;
-	vertical-align: bottom;
 }
 
 .box {
@@ -60,9 +59,9 @@ a {
 }
 
 .social_media {
-	display: table-cell;
-  background-color: grey;
-  width: 30px;
+	display: table-cell; /* need to check what this does */
+	background: rgba(84, 84, 84, 0.7);  
+	width: 30px;
   padding: 10px;
   float: left;
   margin-bottom: 0;
