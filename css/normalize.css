@@ -7,6 +7,7 @@
  */
 
 html {
+  font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -16,21 +17,11 @@ html {
  */
 
 body {
-  background-image: url(../assets/ink.jpg);
-  font-family:'Josefin Sans', sans-serif;
-  font-weight: normal;
-  font-style: normal;
   margin: 0;
 }
 
-/* Adding styling to under construction 
-sign */
-
-#notification {
-  text-shadow: 4px 4px 8px #000;
-}
 /* HTML5 display definitions
-   ========================================================================== 
+   ========================================================================== */
 
 /**
  * Correct `block` display not defined in IE 8/9.
@@ -84,14 +75,6 @@ template {
   display: none;
 }
 
-
-/* Box dividers */
-.box {
-  width: 500px;
-  overflow: auto;
-  background-color: white;
-}
-
 /* Links
    ========================================================================== */
 
@@ -100,9 +83,7 @@ template {
  */
 
 a {
-  color: grey;
   background: transparent;
-  text-decoration: none;
 }
 
 /**
@@ -150,24 +131,6 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-  font-weight: normal;
-  color: #006363;
-}
-
-h2 {
-  font-weight: normal;
-}
-
-h3 {
-  font-weight: normal;
-}
-
-h4 {
-  font-weight: normal;
-}
-
-h5 {
-  font-weight: normal;
 }
 
 /**
