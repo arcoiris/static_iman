@@ -53,6 +53,10 @@ a {
   float: right;
 }
 
+#location{
+  padding-bottom: 20px;
+}
+
 h5 {
   margin: 10px;
 }
