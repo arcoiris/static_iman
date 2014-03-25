@@ -39,7 +39,6 @@ a {
   text-decoration: none;
 }
 
-
 /* Box dividers */
 #box_wrapper {
 	width: 550px;
@@ -54,11 +53,7 @@ a {
   float: right;
 }
 
-#box address {
-	padding-bottom: 20px;
-}
-
-#box h5 {
+h5 {
   margin: 10px;
 }
 
